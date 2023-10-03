@@ -1,0 +1,30 @@
+/* src/components/AboutUs.css */
+.App-header {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  .contributors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .contributor {
+    text-align: center;
+  }
+  
+  .contributor img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #007bff;
+  }
+  
+  .contributor p {
+    margin-top: 10px;
+  }
+  

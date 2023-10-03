@@ -1,0 +1,217 @@
+/* Add this CSS to your 'Signup.css' or create a new CSS file */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.signup-container {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px; /* Reduce the padding to make it smaller */
+    width: 500px;
+    margin-top: 120px; /* Adjust the top margin as needed to avoid overlapping with the navbar */
+}
+
+.send-container {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px; /* Reduce the padding to make it smaller */
+    width: 500px;
+    margin-top: 0px; /* Adjust the top margin as needed to avoid overlapping with the navbar */
+}
+
+.update-container {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px; /* Reduce the padding to make it smaller */
+    width: 500px;
+    margin-top: 50px; /* Adjust the top margin as needed to avoid overlapping with the navbar */
+}
+
+.delete-container {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px; /* Reduce the padding to make it smaller */
+    width: 500px;
+    margin-top: 170px; /* Adjust the top margin as needed to avoid overlapping with the navbar */
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: 1000; /* Increased font weight for bolder text */
+    font-family: 'Arial', sans-serif;
+    font-size: x-large; /* Use a more professional font */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: 700; /* Keep the same font size and use a bolder font weight */
+    color: #333;
+    font-family: 'Arial', sans-serif; /* Use the same font as h2 */
+}
+
+/* Left-align the labels */
+.label-left {
+    text-align: left;
+    font-weight: 700; /* Keep the same font size and use a bolder font weight */
+}
+
+input[type="text"],
+select,
+textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+}
+
+select {
+    appearance: none;
+    cursor: pointer;
+}
+
+textarea {
+    resize: vertical;
+    height: 150px; /* Adjust the height as needed */
+}
+
+.error-message {
+    color: #ff0000;
+    margin-top: 5px;
+}
+
+.signup-button {
+    background-color: #3FADC4;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-image: linear-gradient(45deg, #3498db, #45B3CF);
+    width: auto;
+    text-transform: none; /* Prevent full caps */
+}
+
+.signup-button:hover {
+    background-image: linear-gradient(45deg, #d8a16a, #ffb151); /* Green gradient on hover */
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.create-button {
+    background-color: #45b3cf; /* Blue background */
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-image 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: auto;
+}
+
+.create-button:hover {
+    background-image: linear-gradient(45deg, #5dbf61, #8dd85e);
+     /* Lighter gradient of #fe6601 on hover */
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.send-button {
+    background-color: #45b3cf; /* Blue background */
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-image 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: auto;
+    margin-top: 30px; /* Add margin to create space between the elements */
+}
+
+.send-button:hover {
+    background-image: linear-gradient(45deg, #fc9550, #f09355);/* Gradient with green and blue on hover */
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.update-button {
+    background-color: #45b3cf; /* Blue background */
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-image 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: auto;
+    margin-top: 20px ; /* Add margin to create space between the elements */
+    display: block;
+}
+
+.update-button:hover {
+    background-image: linear-gradient(45deg, #ebcc1edc, #e8b419); /* Yellowish gradient on hover */
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.delete-button {
+    background-color: #45b3cf; /* Blue background */
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-image 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: auto;
+    margin-top: -20px; /* Add margin to create space between the elements */
+}
+
+.delete-button:hover {
+    background-image: linear-gradient(45deg, #e87272, #ff5d4a); /* Yellowish gradient on hover */
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+
+/* Add spacing between "Create New Notification" and the dropdown */
+h2 + form .form-group:first-child {
+    margin-top: 20px;
+}
+

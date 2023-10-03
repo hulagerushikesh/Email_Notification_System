@@ -1,0 +1,237 @@
+.navbar {
+  background-color: #333; /* Darker background color for a sleek look */
+  color: #fff; /* White text color */
+  font-family: 'Roboto', sans-serif; /* Replace with your preferred font */
+  font-size: 18px; /* Font size */
+  text-align: center;
+  padding: 15px 0; /* Slightly larger padding for better spacing */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* A bit more prominent shadow */
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Vertically center the navigation items */
+}
+
+.nav-item {
+  margin: 0 20px;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s, transform 0.2s;
+  border-bottom: 2px solid transparent; /* Add an underline effect */
+  padding-bottom: 3px; /* Adjust spacing for underline effect */
+}
+
+.nav-item a:hover {
+  color: #fe6601;
+  transform: scale(1.1);
+  border-bottom: 2px solid #fe6601; /* Highlight the link with an underline on hover */
+}
+
+/* Homepage.css */
+
+.header {
+  text-align: center;
+  background: linear-gradient(to bottom, rgba(254, 102, 1, 0.7), rgba(255, 153, 0, 0.7)), url('images/email.png');
+  background-size: cover;
+  position: fixed;
+  width: 100%;
+  height: 100%; /* Use viewport height for full screen */
+  top: 0; /* Set the top position to the very top */
+  left: 0;
+  z-index: 1; /* Decrease the z-index value to make it appear below the navbar */
+  padding-top: 80px; /* Add padding at the top to accommodate the navbar */
+}
+
+.email-text {
+  font-size: 64px;
+  color: #fff;
+  font-weight: bold;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+  animation: typing 3s steps(30) 0.5s 1 normal both, blink-caret 1s step-end;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: white;
+  }
+}
+.container {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e4edd7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.signup-container {
+    background-color: #85bad9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    min-height: 100px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 80%;
+    padding: 10px;
+    padding-left: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.notification-radio {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.checkbox-group {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.signup-button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Styles for when the button is hovered */
+.signup-button:hover, .delete-button:hover {
+    transform: scale(1.1); /* Scale up by 10% */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a subtle box shadow */
+}
+.form-group label {
+    vertical-align: middle;
+}
+
+/* Add these styles to your styles.css file */
+.input-field {
+    margin-bottom: 10px;
+}
+
+.button-spacing {
+    margin-top: 10px;
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.delete-container {
+    background-color: #85bad9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+}
+.containerbuttons {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #e4edd7;
+  display: flex;
+  flex-direction: column; /* Change from "row" to "column" */
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* NavbarAdmin.css */
+.navbar-admin {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+.nav-list-admin {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+.nav-item-admin {
+  display: inline;
+  margin-right: 20px;
+}
+
+.nav-link-admin {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.nav-link-admin:hover {
+  text-decoration: underline;
+}
+
+.logout-button {
+
+  /* Position the button to the top-right corner */
+  position: absolute;
+
+  right: 20px;
+}
+
+

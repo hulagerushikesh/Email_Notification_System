@@ -1,0 +1,92 @@
+/* admin.css */
+
+/* Global reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Container */
+.containerbuttons {
+  font-family: Arial, sans-serif;
+  background-color: #f2f5f9; /* Soothing light blue background */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Header text */
+.typing-text {
+  font-size: 60px; /* Larger header text */
+  color: #333;
+  font-weight: bold; /* Make the text bold */
+  margin-bottom: 30px;
+  text-align: center; /* Center-align the header */
+  white-space: nowrap; /* Prevent text from wrapping */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Text shadow for depth */
+}
+
+/* Primary button style */
+.signup-button {
+  background-color: #007bff; /* Blue background color */
+  color: #fff; /* White text color */
+  padding: 18px 36px; /* Increased padding for a larger button */
+  font-size: 22px; /* Slightly larger font size */
+  border: none;
+  border-radius: 10px; /* Rounded corners for buttons */
+  cursor: pointer;
+  margin: 20px 0;
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase; /* Uppercase text */
+  letter-spacing: 2px; /* Increased letter spacing */
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2); /* Subtle box shadow */
+}
+
+.signup-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  transform: scale(1.08); /* Slightly scale up on hover */
+}
+
+/* Square button container */
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+/* Square button style */
+.square-button {
+  background: linear-gradient(to bottom, #ff5b00, #ff9600); /* Gradient background */
+  color: #fff;
+  padding: 20px; /* Increased padding */
+  font-size: 24px; /* Slightly increased font size */
+  width: 290px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease, color 0.3s ease; /* Smooth transitions for color and scale only */
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2); /* Subtle box shadow */
+}
+
+.square-button:hover {
+  background: linear-gradient(to bottom, #2ecc71, #27ae60); /* Change gradient color on hover */
+  transform: scale(1.1); /* Slightly scale up on hover */
+  color: #fff; /* Change text color back to white on hover */
+}
+
+/* Icon adjustments */
+.square-button i {
+  margin-right: 15px; /* Add space after the icon */
+  font-weight: bold; /* Make icon text bold */
+}
